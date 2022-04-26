@@ -21,6 +21,12 @@ public struct QCAlertView {
         let name:String
         let type:UIAlertAction.Style
         let action:() -> Void
+        
+        public init(name:String,type:UIAlertAction.Style,action:@escaping () -> Void) {
+            self.name = name
+            self.type = type
+            self.action = action
+        }
     }
     
     // public methods

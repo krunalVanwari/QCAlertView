@@ -16,7 +16,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnShowAlertPressed(_ sender:Any) {
+        QCAlertView.shared.showAlert(self, withTitle: "QCAlertView Example", alertList: [
+            
+            QCAlertView.Alert.init(name: "default action", type: .default, action: {}),
+            QCAlertView.Alert.init(name: "destructive action", type: .destructive, action: {}),
+            QCAlertView.Alert.init(name: "cancel action", type: .cancel, action: {})
         
+        ])
     }
 
 
