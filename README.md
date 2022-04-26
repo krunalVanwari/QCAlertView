@@ -1,3 +1,4 @@
 # QCAlertView
 
-A description of this package.
+Tried creating repeted AlertView's ? try "QCAlertView" instead!
+
