@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "QCAlertView",
+        "repositoryURL": "https://github.com/krunalVanwari/QCAlertView",
+        "state": {
+          "branch": "main",
+          "revision": "8392003a25dc783a20a887cd01ff7e4525a9e1aa",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

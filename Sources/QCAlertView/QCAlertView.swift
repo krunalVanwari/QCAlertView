@@ -6,7 +6,7 @@ public struct QCAlertView {
     private init() {}
     
     // shared instance
-    static let shared = QCAlertView()
+    public static let shared = QCAlertView()
     
     // public variables
     public var alertStyle:UIAlertController.Style = .alert
