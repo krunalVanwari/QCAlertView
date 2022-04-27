@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  QCAlertViewExample
+//  QCAlertviewExample
 //
 //  Created by Qurious Click on 26/04/22.
 //

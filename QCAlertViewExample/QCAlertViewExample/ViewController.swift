@@ -1,12 +1,12 @@
 //
 //  ViewController.swift
-//  QCAlertViewExample
+//  QCAlertviewExample
 //
 //  Created by Qurious Click on 26/04/22.
 //
 
 import UIKit
-import QCAlertView
+import QCAlertview
 
 class ViewController: UIViewController {
 
@@ -16,11 +16,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnShowAlertPressed(_ sender:Any) {
-        QCAlertView.shared.showAlert(self, withTitle: "QCAlertView Example", alertList: [
+        QCAlertview.shared.showAlert(self, withTitle: "QCAlertview Example", alertList: [
             
-            QCAlertView.Alert.init(name: "default action", type: .default, action: {}),
-            QCAlertView.Alert.init(name: "destructive action", type: .destructive, action: {}),
-            QCAlertView.Alert.init(name: "cancel action", type: .cancel, action: {})
+            QCAlertview.Alert.init(name: "default action", type: .default, action: {}),
+            QCAlertview.Alert.init(name: "destructive action", type: .destructive, action: {}),
+            QCAlertview.Alert.init(name: "cancel action", type: .cancel, action: {})
         
         ])
     }

@@ -1,12 +1,12 @@
 import UIKit
 
-public struct QCAlertView {
+public struct QCAlertview {
     
     // private init for now
     private init() {}
     
     // shared instance
-    public static var shared = QCAlertView()
+    public static var shared = QCAlertview()
     
     // public variables
     public var alertStyle:UIAlertController.Style = .alert
@@ -16,7 +16,7 @@ public struct QCAlertView {
     public var complitionBlock:() -> () = {}
     
     
-    // a struct whch is core element of QCAlertView
+    // a struct whch is core element of QCAlertview
     public struct Alert {
         let name:String
         let type:UIAlertAction.Style

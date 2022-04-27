@@ -1,15 +1,15 @@
-# QCAlertView
+# QCAlertview
 
-Tried creating repeted AlertView's ? try "QCAlertView" instead!
+Tried creating repeted AlertView's ? try "QCAlertview" instead!
 
 Easily create and show alert views without writing much code
 
 ```
-QCAlertView.shared.showAlert(self, withTitle: "QCAlertView Example", alertList: [
+QCAlertview.shared.showAlert(self, withTitle: "QCAlertview Example", alertList: [
             
-    QCAlertView.Alert.init(name: "default action", type: .default, action: {}),
-    QCAlertView.Alert.init(name: "destructive action", type: .destructive, action: {}),
-    QCAlertView.Alert.init(name: "cancel action", type: .cancel, action: {})
+    QCAlertview.Alert.init(name: "default action", type: .default, action: {}),
+    QCAlertview.Alert.init(name: "destructive action", type: .destructive, action: {}),
+    QCAlertview.Alert.init(name: "cancel action", type: .cancel, action: {})
         
     ])
 ```
