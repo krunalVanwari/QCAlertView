@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'QCAlertview'
-  s.version          = '1.1'
+  s.version          = '1.2'
   s.summary          = 'Tried creating repeted AlertView ? try "QCAlertview" instead!'
   s.homepage         = 'https://github.com/krunalVanwari/QCAlertview'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
