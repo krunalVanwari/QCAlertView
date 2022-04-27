@@ -27,5 +27,6 @@ let package = Package(
         .testTarget(
             name: "QCAlertViewTests",
             dependencies: ["QCAlertView"]),
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
